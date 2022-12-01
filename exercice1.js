@@ -9,6 +9,18 @@ alert(monTexte.);
 
 
 
+let texte2 = monTexte.indexOf('i');
+document.getElementById("position").innerHTML = texte2;
+
+let nouvelleChaine = monTexte.toLowerCase();
+document.getElementById('chaineMaj').innerHTML = nouvelleChaine;
+
+for (let i = 0; i < monTexte.indexOf('i'); i++) {
+    alert("la lettre a à été trouvée");
+}
+
+
+
 
 
 
